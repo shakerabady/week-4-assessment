@@ -28,21 +28,23 @@
       display: flex;
       min-height: 100vh;
       flex-direction: column;
+      justify-content: space-between;
     }
-    .content {
-        justify-content: flex-start;
-    }
+  
     .container { 
         display: flex;
-        flex-grow: 3;
         flex-wrap: nowrap;
+        flex-grow: 1;
+        justify-content: space-between;
+
     }
-    
-    
+    .content {
+    }
     .leftbar {
-        flex-direction: column;
-        
+     order: -1;
     }
+   
+   
   </style>
 </head>
 
