@@ -29,17 +29,19 @@
       min-height: 100vh;
       flex-direction: column;
     }
-    .container { 
-        flex-grow: 3;
-        flex-wrap: wrap;
-    }
     .content {
-      
+        justify-content: flex-start;
     }
+    .container { 
+        display: flex;
+        flex-grow: 3;
+        flex-wrap: nowrap;
+    }
+    
+    
     .leftbar {
-        flex-grow: 1;
-        flex-wrap: wrap;
         flex-direction: column;
+        
     }
   </style>
 </head>
